@@ -1,10 +1,16 @@
 import React from 'react';
+import mainStyles from './main.module.css'
 
 class Main extends React.Component {
   render() {
+    const { image, caption, title, description } = this.props.mainData;
+    
     return (
-      <main>
-        <img src={this.props.image} alt="фото собачек." />
+      <main className={mainStyles.main}>
+        <img src={image} alt="фото собачек." className={mainStyles.image} />
+        <span className={mainStyles.caption}>{caption}</span>
+        <h2 className={mainStyles.title}>{title}</h2>
+        <p className={mainStyles.description}>{description}</p>
       </main>
     );
   }

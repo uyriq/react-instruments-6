@@ -1,2 +1,2 @@
-# practicum-react-instruments-4-import_modules
+# practicum-react-instruments-6-styles
 Created with CodeSandbox

@@ -44,7 +44,9 @@
     } 
 
 Затем добавьте свойство font-family: 'Spectral', Arial, sans-serif селектору .title в модуле header.module.css.
-
+Все тексты внутри Main будем писать шрифтом IBM Plex Sans. Как и в предыдущем задании, нужно применить новый шрифт к CSS-правилу селектора .main в CSS-модуле main.module.css. Не забудьте про запасные шрифты Arial, sans-serif в правиле font-family.
+    
+    font-family: 'IBM Plex Sans', Arial,sans-serif
 
 # practicum-react-instruments-6-styles
 Created with CodeSandbox
